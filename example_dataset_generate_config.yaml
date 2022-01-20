@@ -26,47 +26,35 @@ config_sets:
     n: 6
     circular: true
     clockwise: true
-  - set_name: medium_circular_clockwise
+  - set_name: big_circular_clockwise
     n: 7
     circular: true
     clockwise: true
-  - set_name: big_circular_clockwise
-    n: 8
-    circular: true
-    clockwise: true
+
   - set_name: small_noncircular_clockwise
     n: 6
     circular: false
     clockwise: true
-  - set_name: medium_noncircular_clockwise
+  - set_name: big_noncircular_clockwise
     n: 7
     circular: false
     clockwise: true
-  - set_name: big_noncircular_clockwise
-    n: 8
-    circular: false
-    clockwise: true
+
   - set_name: small_noncircular_nonclockwise
     n: 6
     circular: false
     clockwise: false
-  - set_name: medium_noncircular_nonclockwise
+  - set_name: big_noncircular_nonclockwise
     n: 7
     circular: false
     clockwise: false
-  - set_name: big_noncircular_nonclockwise
-    n: 8
-    circular: false
-    clockwise: false
+
   - set_name: small_circular_nonclockwise
     n: 6
     circular: true
     clockwise: false
-  - set_name: medium_circular_nonclockwise
+  - set_name: big_circular_nonclockwise
     n: 7
     circular: true
     clockwise: false
-  - set_name: big_circular_nonclockwise
-    n: 8
-    circular: true
-    clockwise: false              
+           
